@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+	    <title>CyberLearningService Login</title>
+        
+           
+           
+                
+                <link type="text/css" rel="stylesheet" href="/cas/css/cas.css;jsessionid=C1FB49D518CDF70629B976A25892E0AC" />
+           
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	    <link rel="icon" href="/cas/favicon.ico;jsessionid=C1FB49D518CDF70629B976A25892E0AC" type="image/x-icon" />
+		<script type="text/javascript" language="JavaScript" src="/library/js/jquery/1.4.2/jquery-1.4.2.min.js"></script>
+	 
+	 <script type="text/javascript" src="/library/js/thickbox/thickbox.js"></script>
+	 <link rel="stylesheet" href="/library/js/thickbox/thickbox.css" type="text/css" media="screen" />
+	 
+	</head>
+	<body id="cas" class="fl-theme-iphone">
+    <div class="flc-screenNavigator-view-container">
+        <div class="fl-screenNavigator-view">
+            <div id="header" class="flc-screenNavigator-navbar fl-navbar fl-table">
+            </div>		
+            <div id="content" class="fl-screenNavigator-scroll-container">
+
+
+<h1 id="app-name" class="fl-table-cell">ログイン/ Log in</h1>
+
+
+
+  <div class="box fl-panel" id="login">
+			<form id="fm1" class="fm-v clearfix" action="/cas/login;jsessionid=C1FB49D518CDF70629B976A25892E0AC?service=https%3A%2F%2Fpanda.ecs.kyoto-u.ac.jp%2Fsakai-login-tool%2Fcontainer" method="post">
+                  
+                <!-- おめでとうございます! CAS をオンラインにすることができました．デフォルトの認証ハンドラでは，ユーザ名とパスワードが同じときに認証されます．ぜひ，お試しください． -->
+                    <h2>ユーザ ID およびパスワードを入力してください．教職員等は SPS-ID，学生は ECS-ID をユーザ ID に入力します．それ以外の方は PandA に登録したメールアドレスを入力します．SPS-ID を発行されている教職員は ECS-ID でログインしないで下さい．</h2>
+                    <div class="row fl-controls-left">
+                        <label for="username" class="fl-label">ユーザ ID:</label>
+						
+
+						
+						
+						<input id="username" name="username" class="required" tabindex="1" accesskey="n" type="text" value="" size="25" autocomplete="false"/>
+						
+                    </div>
+                    <div class="row fl-controls-left">
+                        <label for="password" class="fl-label">パスワード:</label>
+						
+						
+						<input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+                    </div>
+                    <div class="row check">
+                        <input id="warn" name="warn" value="true" tabindex="3" accesskey="w" type="checkbox" />
+                        <label for="warn">他のサイトにログインする前に警告を出す．</label>
+                    </div>
+                    <div class="row btn-row">
+						<input type="hidden" name="lt" value="LT-43346-sXSyFL7uqW27OWPlzOhfuSzxccXP6s" />
+						<input type="hidden" name="execution" value="e1s1" />
+						<input type="hidden" name="_eventId" value="submit" />
+
+                        <input class="btn-submit" name="submit" accesskey="l" value="ログイン" tabindex="4" type="submit" />
+                        <input class="btn-reset" name="reset" accesskey="c" value="クリア" tabindex="5" type="reset" />
+                    </div>
+            </form>
+          </div>
+          
+          
+
+                <div id="footer" class="fl-panel fl-note fl-bevel-white fl-font-size-80">
+                	<a id="jasig" href="http://www.jasig.org" title="go to Jasig home page"></a>
+			<ul style="margin-top:10px;margin-left:0px;margin-bottom:0px;line-height:1.5em;list-style-type: lower-roman">
+			  <li><a href="https://cas.ecs.kyoto-u.ac.jp/faq-id.html?keepThis=true&TB_iframe=true&height=300&width=500" title="SPS-ID および ECS-ID とは? What is SPS-ID and ECS-ID?" class="thickbox">SPS-ID および ECS-ID とは? What is SPS-ID and ECS-ID?</a></li>
+			</ul>
+                    <div id="copyright">
+                        <p>Copyright &copy; 2012 <a href="http://www.iimc.kyoto-u.ac.jp/">Institute for Information Management and Communication, Kyoto University</a>. All rights reserved.</p>
+<!--
+                        <p>Powered by <a href="http://www.jasig.org/cas">Jasig Central Authentication Service 3.6.0</a></p>
+-->
+                    </div>
+                </div>
+
+            
+
+                 </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/cas/js/cas.js;jsessionid=C1FB49D518CDF70629B976A25892E0AC"></script>
+    </body>
+</html>
+
+
